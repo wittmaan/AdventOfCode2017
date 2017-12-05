@@ -3,7 +3,6 @@
 
 library(testthat)
 library(data.table)
-library(dplyr)
 
 dat <- fread("../resources/day4inputSample.txt", header = FALSE, sep = "\n")
 
